@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Space: O(n)
 void bubble_sort (int* a, int n) {
     //sort to increasing order
     int cntCompare = 0, cntSwap = 0;

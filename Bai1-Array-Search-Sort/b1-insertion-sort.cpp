@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+// Time: TH xau nhat, tot nhat, trung binh
+// Space
+
+// Co break (neu khong thoa man while)
+// Time complex:
+//     Tot nhat (Xep roi): O(n)
+//     Xau nhat (Xep nguoc): O(n^2)
+//     Trung binh: O(n^2) (sau nay co cong thuc de tinh)
+// Space: 
 void insertion_sort (int* a, int n) { 
     //sort to increasing order
     int cntCompare = 0, cntSwap = 0;
